@@ -12,3 +12,16 @@ body {
   min-height: 300px;
   text-align: center;
 }
+
+h2 {
+  color: #ff007f;
+}
+
+.introduction {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.borders {
+  margin-bottom: 30px;
+}

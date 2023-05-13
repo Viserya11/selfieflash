@@ -2,8 +2,8 @@ import Container from "react-bootstrap/Container";
 
 function Introduction() {
   return (
-    <Container>
-      <h1>Miért hasznos egy selfie gép?</h1>
+    <Container className="introduction"> 
+      <h2 className="h2">Miért hasznos egy selfie gép?</h2>
       <p>
         Azonnal nyomtatható képek, amiket akár pár percen belül megoszthatsz
         bármilyen közösségi média felületen a telefonod segítségével, így
