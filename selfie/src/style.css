@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  background-color: #00ced1;
+  color: aliceblue;
+}
+
+.jumbo {
+  background-color: rgb(222, 222, 222);
+  min-height: 300px;
+  text-align: center;
+}
