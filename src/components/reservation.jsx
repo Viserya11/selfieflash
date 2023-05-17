@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Calendario from "./calendar";
 
 export default function Reservation() {
   return (
@@ -7,7 +8,7 @@ export default function Reservation() {
     <div>
       <h2>Reservation</h2>
       <div className="flexreserv">
-      <div className="calendar"> a </div>
+      <div className="calendar"> <Calendario/> </div>
       <div className="reservtext">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae illum
         facilis magni nemo nulla odit nihil delectus obcaecati amet cupiditate,
