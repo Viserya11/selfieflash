@@ -5,6 +5,9 @@ import Packages from "./components/packages";
 import './style.css'
 import Introduction from "./components/intro";
 import Borders from "./components/borders";
+import CarouselOne from "./components/carousel";
+import Reservation from "./components/reservation";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -12,9 +15,11 @@ function App() {
       <MyNavbar />
       <MyJumbo />
       <Introduction/>
+      <CarouselOne/>
       <Borders/>
       <Packages />
-      
+      <Reservation/>
+      <Footer/>
     </div>
   );
 }
