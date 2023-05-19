@@ -65,9 +65,9 @@ position: relative;
 }
 
 .calendar {
-  min-width: 300px;
+  min-width: 400px;
   min-height: 200px;
-  max-width: 300px;
+  max-width: 400px;
   max-height: 350px;
   background-color: #1b191f;
 }
