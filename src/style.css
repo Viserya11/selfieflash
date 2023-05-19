@@ -67,6 +67,7 @@ position: relative;
 .calendar {
   min-width: 300px;
   min-height: 200px;
+  max-width: 300px;
   background-color: #1b191f;
 }
 
