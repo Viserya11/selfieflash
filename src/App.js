@@ -12,6 +12,7 @@ import { BrowserRouter } from "react-router-dom";
 import Index from "./components/scrollup";
 import ScrollUp from "./components/scrollup";
 import PhotoBreak from "./components/photobreak";
+import FAQ from "./components/faq";
 
 
 function App() {
@@ -24,8 +25,9 @@ function App() {
       <PhotoBreak/>
       <Borders/>
       <Packages />
-      <CarouselOne/>
+  
       <Reservation/>
+      <FAQ/>
       <Footer/>
       </BrowserRouter>
       <ScrollUp/>

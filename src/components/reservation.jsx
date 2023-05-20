@@ -1,10 +1,11 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Calendario from "./calendar";
+import Email from "./email";
 
 export default function Reservation() {
   return (
-    <Container className="reservation" id="reservations">
+    <Container className="reservation" >
     <div>
       <h2>Foglalás</h2>
       <div className="flexreserv">
@@ -14,6 +15,7 @@ export default function Reservation() {
         <br/>Foglalásod követően a lehető leghamarabb kapcsolatba lépünk veled!
       </div>
       </div>
+      <Email/>
     </div>
     </Container>
   );
