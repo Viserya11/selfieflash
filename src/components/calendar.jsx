@@ -8,7 +8,7 @@ function Calendario() {
   const date = useSelector(state => state.chosenDate.date)
   const dispatch=useDispatch()
   const handleChange=(newDate) => {
-    const dateString = newDate.toISOString().split('T')[0];
+    const dateString = newDate.toLocaleDateString('hu');
     console.log("New date:", dateString);
     dispatch(setDate(dateString));
   }
