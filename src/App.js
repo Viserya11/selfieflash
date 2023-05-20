@@ -9,7 +9,9 @@ import CarouselOne from "./components/carousel";
 import Reservation from "./components/reservation";
 import Footer from "./components/footer";
 import { BrowserRouter } from "react-router-dom";
-import {Hashlink as Link} from "react-router-dom"
+import Index from "./components/scrollup";
+import ScrollUp from "./components/scrollup";
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
       <Reservation/>
       <Footer/>
       </BrowserRouter>
+      <ScrollUp/>
     </div>
   );
 }
