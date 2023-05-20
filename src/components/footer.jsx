@@ -24,9 +24,7 @@ export default function Footer() {
           <h5 className='text-uppercase'>Footer text</h5>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias.
-            Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam,
-            est atque cumque eum delectus sint!
+          *Igény esetén nagyobb példányszámú nyomtatási lehetőség is kérhető.
           </p>
         </MDBCol>
       </MDBRow>

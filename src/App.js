@@ -22,9 +22,9 @@ function App() {
       <MyJumbo />
       <Introduction/>
       <PhotoBreak/>
-      <CarouselOne/>
       <Borders/>
       <Packages />
+      <CarouselOne/>
       <Reservation/>
       <Footer/>
       </BrowserRouter>
