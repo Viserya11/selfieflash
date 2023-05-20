@@ -11,6 +11,7 @@ import Footer from "./components/footer";
 import { BrowserRouter } from "react-router-dom";
 import Index from "./components/scrollup";
 import ScrollUp from "./components/scrollup";
+import PhotoBreak from "./components/photobreak";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <MyNavbar />
       <MyJumbo />
       <Introduction/>
+      <PhotoBreak/>
       <CarouselOne/>
       <Borders/>
       <Packages />

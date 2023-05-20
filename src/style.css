@@ -238,6 +238,40 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
   margin-bottom: 0px;
 }
 
+.introflex img {
+  width: 200px;
+}
+
+.introflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin: 10px auto;
+
+}
+
+.photobreak {
+  height: 300px;
+  background-color: #ff93c9;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.photobreak img {
+  width: 300px;
+  height: auto;
+  padding-top: 50px;
+  margin-left: 30px;
+}
+
+.photoflex {
+  display: flex;
+}
+
+
 @media screen and (max-width: 380px) {
   .scrollup {display: none;}
 }
+
