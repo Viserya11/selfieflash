@@ -150,6 +150,39 @@ button.react-calendar__tile {
   background-color: #e6e6e6;
 }
 
+button.react-calendar__navigation__label {
+  background-color: transparent;
+  border: 0px solid black;
+  color: #ffffff !important;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+button.react-calendar__navigation__arrow.react-calendar__navigation__next-button {
+  background-color: transparent !important;
+  border: 0px solid black;
+  color: #ffffff !important;
+}
+
+button.react-calendar__navigation__arrow.react-calendar__navigation__prev-button {
+  background-color: transparent !important;
+  border: 0px solid black;
+  color: #ffffff !important;
+}
+
+button.react-calendar__navigation__arrow.react-calendar__navigation__next2-button {
+  background-color: transparent !important;
+  border: 0px solid black;
+  color: #ffffff !important;
+}
+
+button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button {
+  background-color: transparent !important;
+  border: 0px solid black;
+  color: #ffffff !important;
+}
+
+
 .flexreserv {
   max-width: 80%;
   display: flex;
@@ -184,3 +217,27 @@ button.react-calendar__tile {
   justify-content: center;
 }
 
+.scrollup {
+    position: "fixed";
+    bottom: "50px";
+    right: "50px";
+    height: "50px";
+    width: "50px";
+    font-size: "50px";
+    border-radius: 50%;
+    background-color:#ff007f;
+    color: #ffffff;
+    border: 0px solid black;
+    line-height: 2px;
+    text-shadow: 2px 2px #ff0000;
+    z-index: 5;
+}
+
+.footerp {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 380px) {
+  .scrollup {display: none;}
+}
