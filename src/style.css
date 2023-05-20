@@ -194,7 +194,11 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
 .reservation {
   margin-top: 50px;
   margin-bottom: 30px;
-  height: 600px;
+  height: 650px;
+}
+
+.sendbtn {
+  margin-bottom: 3rem;
 }
 
 .calheader {

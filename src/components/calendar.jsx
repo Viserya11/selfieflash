@@ -5,20 +5,19 @@ import { useDispatch } from 'react-redux';
 import { setDate } from '../redux/actions';
 
 function Calendario() {
-  const chosenDate = useSelector(state => state.chosenDate.date)
-  const [date, setDate] = useState(chosenDate)
+  const date = useSelector(state => state.chosenDate.date)
   const dispatch=useDispatch()
   const handleChange=(newDate) => {
-    console.log("i hate my life", newDate)
-    setDate(newDate)
-    dispatch(setDate(newDate))
+    const dateString = newDate.toISOString().split('T')[0];
+    console.log("New date:", dateString);
+    dispatch(setDate(dateString));
   }
 
 return (
  <div className="app" id="reservations">
    <h1 className="calheader">Foglalj most!</h1>
    <div className="calendar-container">
-     <Calendar onChange={() => handleChange(date)} value={date} locale="hu"/>
+     <Calendar onChange={handleChange} value={date} locale="hu"/>
    </div>
    <div className="text-center">
       Választott dátum: {date}
