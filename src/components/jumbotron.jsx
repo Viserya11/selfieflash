@@ -1,9 +1,12 @@
+import logo from "./logo2.png"
+
 function MyJumbo() {
   return (
     <>
       <div className="jumbo">
         <div className="jumbocontent">
           <div className="jumbotext">
+            <img className="logo" src={logo} alt="logo" />
             <h1>SelfieFlash</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae

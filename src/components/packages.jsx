@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 
 function Packages() {
-    return ( <Container>
+    return ( <Container id="packages">
         <Row>
           <Col> <SinglePackage name="csomag 1" description="lorem"/></Col>
           <Col><SinglePackage name="csomag 2" description="ipsum"/></Col>

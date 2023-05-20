@@ -4,16 +4,14 @@ import Calendario from "./calendar";
 
 export default function Reservation() {
   return (
-    <Container className="reservation">
+    <Container className="reservation" id="reservations">
     <div>
-      <h2>Reservation</h2>
+      <h2>Foglalás</h2>
       <div className="flexreserv">
       <div className="calendar"> <Calendario/> </div>
       <div className="reservtext">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae illum
-        facilis magni nemo nulla odit nihil delectus obcaecati amet cupiditate,
-        ea autem libero fugiat provident. Molestias libero dolor voluptate
-        dolores.
+        Amennyiben szeretnéd igénybe venni szolgáltatásunkat, a naptárban van lehetőséged lefoglalni a selfie gépet az adott napra. 
+        <br/>Foglalásod követően a lehető leghamarabb kapcsolatba lépünk veled!
       </div>
       </div>
     </div>

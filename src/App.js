@@ -8,10 +8,13 @@ import Borders from "./components/borders";
 import CarouselOne from "./components/carousel";
 import Reservation from "./components/reservation";
 import Footer from "./components/footer";
+import { BrowserRouter } from "react-router-dom";
+import {Hashlink as Link} from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <MyNavbar />
       <MyJumbo />
       <Introduction/>
@@ -20,6 +23,7 @@ function App() {
       <Packages />
       <Reservation/>
       <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
