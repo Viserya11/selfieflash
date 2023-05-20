@@ -1,11 +1,9 @@
 export const SET_DATE = "SET_DATE"
-export const setDate = (value) => {
-    return (dispatch, getState) => {
-        console.log("i hate this", getState());
-        dispatch({
+export const setDate = (value) => ({
+            
             type: "SET_DATE",
             payload: value,
-        })
-    }
-}
+        
+    })
+
     

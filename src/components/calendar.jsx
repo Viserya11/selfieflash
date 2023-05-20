@@ -18,7 +18,7 @@ return (
  <div className="app" id="reservations">
    <h1 className="calheader">Foglalj most!</h1>
    <div className="calendar-container">
-     <Calendar onChange={handleChange} value={date} locale="hu"/>
+     <Calendar onChange={() => handleChange(date)} value={date} locale="hu"/>
    </div>
    <div className="text-center">
       Választott dátum: {date}
