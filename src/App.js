@@ -13,6 +13,7 @@ import Index from "./components/scrollup";
 import ScrollUp from "./components/scrollup";
 import PhotoBreak from "./components/photobreak";
 import FAQ from "./components/faq";
+import Break from "./components/break";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <PhotoBreak/>
       <Borders/>
       <Packages />
-  
+      <Break/>
       <Reservation/>
       <FAQ/>
       <Footer/>

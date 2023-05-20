@@ -8,13 +8,11 @@ body {
 
 .navbar {
   background-color: #2cbfc6;
-  
 }
 
-.navbar-light .navbar-brand{
-  color:#ffffff
+.navbar-light .navbar-brand {
+  color: #ffffff;
 }
-
 
 .jumbo {
   background-color: rgb(222, 222, 222);
@@ -41,18 +39,17 @@ h2 {
   max-width: 400px;
 }
 
-.carouselitem img{
+.carouselitem img {
   max-width: 400px;
   margin: 0 auto;
 }
 
 .jumbo {
- background-color:#2cbfc6;
-position: relative;
+  background-color: #2cbfc6;
+  position: relative;
 }
 
-.jumbo img{
-
+.jumbo img {
 }
 
 .jumbotext {
@@ -88,9 +85,9 @@ button.react-calendar__tile {
 
 .react-calendar__tile:enabled:hover,
 .react-calendar__tile:enabled:focus {
- background: #f8f8fa;
- color: #6f48eb;
- border-radius: 6px;
+  background: #f8f8fa;
+  color: #6f48eb;
+  border-radius: 6px;
 }
 
 .react-calendar__tile--now {
@@ -98,55 +95,55 @@ button.react-calendar__tile {
   border-radius: 6px;
   font-weight: bold;
   color: #6f48eb;
- }
- .react-calendar__tile--now:enabled:hover,
- .react-calendar__tile--now:enabled:focus {
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
   background: #6f48eb33;
   border-radius: 6px;
   font-weight: bold;
   color: #6f48eb;
- }
- .react-calendar__tile--hasActive:enabled:hover,
- .react-calendar__tile--hasActive:enabled:focus {
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
   background: #8686b1;
- }
- .react-calendar__tile--active {
+}
+.react-calendar__tile--active {
   background: #6f48eb;
   border-radius: 6px;
   font-weight: bold;
   color: white;
- }
- .react-calendar__tile--active:enabled:hover,
- .react-calendar__tile--active:enabled:focus {
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
   background: #6f48eb;
   color: white;
- }
- .react-calendar--selectRange .react-calendar__tile--hover {
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
   background-color: #f8f8fa;
- }
- .react-calendar__tile--range {
+}
+.react-calendar__tile--range {
   background: #525297;
   color: #6f48eb;
   border-radius: 0;
- }
- .react-calendar__tile--rangeStart {
+}
+.react-calendar__tile--rangeStart {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   background: #6f48eb;
   color: white;
- }
- .react-calendar__tile--rangeEnd {
+}
+.react-calendar__tile--rangeEnd {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   background: #6f48eb;
   color: white;
- }
- 
- .react-calendar--selectRange .react-calendar__tile--hover {
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
   background-color: #e6e6e6;
 }
 
@@ -181,7 +178,6 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
   border: 0px solid black;
   color: #ffffff !important;
 }
-
 
 .flexreserv {
   max-width: 80%;
@@ -222,19 +218,19 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
 }
 
 .scrollup {
-    position: "fixed";
-    bottom: "50px";
-    right: "50px";
-    height: "50px";
-    width: "50px";
-    font-size: "50px";
-    border-radius: 50%;
-    background-color:#ff007f;
-    color: #ffffff;
-    border: 0px solid black;
-    line-height: 2px;
-    text-shadow: 2px 2px #ff0000;
-    z-index: 5;
+  position: "fixed";
+  bottom: "50px";
+  right: "50px";
+  height: "50px";
+  width: "50px";
+  font-size: "50px";
+  border-radius: 50%;
+  background-color: #ff007f;
+  color: #ffffff;
+  border: 0px solid black;
+  line-height: 2px;
+  text-shadow: 2px 2px #ff0000;
+  z-index: 5;
 }
 
 .footerp {
@@ -253,7 +249,6 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
   gap: 1rem;
   width: 100%;
   margin: 10px auto;
-
 }
 
 .photobreak {
@@ -274,8 +269,39 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
   display: flex;
 }
 
-
-@media screen and (max-width: 380px) {
-  .scrollup {display: none;}
+.break {
+  height: 300px;
+  background-color: #60c3c8;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
+.break img {
+  width: 300px;
+  height: auto;
+  padding-top: 50px;
+  margin-left: 30px;
+}
+
+
+#faq {
+  background-color: #ff93c9;
+  margin-bottom: 3rem;
+}
+
+button.accordion-button.collapsed {
+  bottom: 0;
+  background-color: transparent;
+  border: 0px solid black;
+}
+
+button.accordion-button {
+  background-color: transparent;
+  border: 0px solid black;
+}
+
+@media screen and (max-width: 380px) {
+  .scrollup {
+    display: none;
+  }
+}
