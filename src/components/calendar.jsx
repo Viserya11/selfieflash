@@ -14,7 +14,7 @@ function Calendario() {
   }
 
 return (
- <div className="app" id="reservations">
+ <div className="app" >
    <h1 className="calheader">Foglalj most!</h1>
    <div className="calendar-container">
      <Calendar onChange={handleChange} value={date} locale="hu"/>

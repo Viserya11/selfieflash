@@ -285,19 +285,29 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
 
 
 #faq {
-  background-color: #ff93c9;
+  background-color: #2cbfc6;
   margin-bottom: 3rem;
+  color: #fff;
+  padding: 5px;
 }
 
 button.accordion-button.collapsed {
   bottom: 0;
   background-color: transparent;
   border: 0px solid black;
+  color: #fff;
 }
 
 button.accordion-button {
   background-color: transparent;
   border: 0px solid black;
+  width: 100%;
+  text-align: left;
+  color: #fff;
+}
+
+.accordion-button {
+  border-bottom: 10px solid black;
 }
 
 @media screen and (max-width: 380px) {

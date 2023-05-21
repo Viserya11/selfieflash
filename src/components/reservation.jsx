@@ -5,7 +5,7 @@ import Email from "./email";
 
 export default function Reservation() {
   return (
-    <Container className="reservation" >
+    <Container className="reservation" id="reservations">
     <div>
       <h2>Foglalás</h2>
       <div className="flexreserv">

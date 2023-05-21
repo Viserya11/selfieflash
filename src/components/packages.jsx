@@ -5,7 +5,10 @@ import Col from "react-bootstrap/Col";
 
 function Packages() {
   return (
+    <>
+    
     <Container id="packages">
+    <h2 style={{textAlign: "left", marginBottom: "1.5rem"}}>Csomagjaink</h2>
       <Row>
         <Col>
           {" "}
@@ -27,6 +30,7 @@ Ezzel a választással nem kell válogatnod a lencsevégre kapott élményekből
         </Col>
       </Row>
     </Container>
+    </>
   );
 }
 
