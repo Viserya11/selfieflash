@@ -25,15 +25,15 @@ function Email({ onEmailSent }) {
     <Form onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Dátum</Form.Label>
-        <h6>{date}</h6>
+        <h6 name="user_date">{date}</h6>
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Név</Form.Label>
-        <Form.Control type="text" placeholder="Add meg a neved" name="name" />
+        <Form.Control type="text" placeholder="Add meg a neved" name="user_name" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>E-mail cím</Form.Label>
-        <Form.Control type="email" placeholder="Add meg az e-mail címed" name="email" />
+        <Form.Control type="email" placeholder="Add meg az e-mail címed" name="user_email" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Üzenet:</Form.Label>
